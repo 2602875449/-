@@ -1,0 +1,23 @@
+.cont{
+margin: 0 auto;
+background: url(bg.png);
+width: 1050px;
+padding-top: 210px;
+}
+label{
+    display:block;
+    margin: 10px 70px;
+}
+[type="chackbox"]{
+    margin-left: 10px;
+    height: 30px;
+    width: 230px;
+}
+.cont > div>:first-child{
+    color: white;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 50px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}

@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contain{
+    width: 1206px;
+    margin: 20px auto;
+}
+img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 10px;
+}
+.box{
+    margin:15px 20px;
+    width: 360px;
+    border: 1px solid #51bcff;
+    height: 150px;
+    float: left;
+}
+/* dd{
+    width: 150px;
+    margin: 20px 20px;
+    这个你用margin顶掉了
+} */
+.txt{
+    margin: 10px;
+    width:165px;    
+    font-weight: bold;
+    word-break: break-all;  /*自动换行*/
+    text-overflow: ellipsis; /*文本折叠 */
+    display: -webkit-box;   /* 新型webkit写法 */
+    -webkit-line-clamp: 2; /* 显示的行数 */
+    -webkit-box-orient: vertical;  /* 文本方向，垂直对齐 */
+    overflow: hidden; /* 内容超出隐藏 */
+}
+.sold{
+    float: left;
+    margin-left: 17px;
+    border: 1px solid #51bcff;
+    align-content: center;
+    border-radius: 2px;
+}
+.price{
+    margin-top: 30px;
+    margin-right: 20px; 
+    float: right;
+}
+.txt1{
+    font-size: 16px;
+    color: red;
+}
+.txt2{
+    font-size: 40px;
+    color: red;
+}
+.txt3{
+    font-size: 10px;
+    color: red;
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+}

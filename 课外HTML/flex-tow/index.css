@@ -1,0 +1,30 @@
+/* .contain{
+    margin: 0 auto;
+    max-width: 1080px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    display: flex;
+    background:url(img/bg.png) no-repeat 0 -1060px;
+}
+.title{
+    flex-direction: row;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    align-items: center;
+}
+.fu{
+    display: flex;
+    
+}
+h2{
+    background-color: antiquewhite;
+    padding-bottom: 5px;
+    margin-bottom: 17px;
+}
+h4{
+    padding: 10px;
+    background-color: antiquewhite;
+    margin-bottom: 14px;
+    
+} */

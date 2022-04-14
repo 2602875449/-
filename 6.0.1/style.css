@@ -1,0 +1,18 @@
+td{
+    height: 40px;
+    width: 100px;
+    border: 1px solid #000;
+    text-align: center;
+}
+table{
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+.information{
+    text-align: start;
+    padding-left: 20px;
+    background-color: antiquewhite;
+    /* //文字加粗 */
+    font-weight: bold;
+
+}

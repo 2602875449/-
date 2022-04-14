@@ -1,0 +1,44 @@
+label input{
+    height: 38px;
+    width: 220px;
+    margin-top: 5px;
+    /*padding-top: 5px;*/
+}
+[type="button"]{
+    border: aliceblue;
+    border-radius: 5px;
+    margin-top:5px ;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    background: linear-gradient(25deg, #9f503b, #af6d4e, #be8b61, #cca875)
+}
+.all{
+    /* width: 539px;
+    height: 416px;
+    background: url("../img/bg.png") no-repeat ;
+    background-size: 539px 416px;
+    margin: 0 auto; */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.user{
+    background: url("../img/user.png") no-repeat ;
+    /*height: 25px;*/
+    text-indent: 30px;
+
+}
+.password{
+    background: url("../img/pass.png") no-repeat  ;
+    text-indent: 30px ;
+}
+.login{
+    position: absolute;
+    padding-top:100px;
+    padding-left: 160px;
+    background: url(../img/bg.png) no-repeat;
+
+}

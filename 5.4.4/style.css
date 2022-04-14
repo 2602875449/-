@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.square{
+    padding-top: 80px;
+    padding-left:350px ;
+}
+.img {
+    background: url(img/bg.png) no-repeat 0 -1020px;
+    width:1080px;
+    height: 720px;
+    margin: 0 auto;
+}
+.bored{
+    /*margin-top:10px ;*/
+    background-color: bisque;
+    margin-left:150px ;
+    margin-right:150px;
+    padding: 10px 13px 10px 10px;
+    border: cadetblue 1px solid;
+    border-radius: 5px;
+}
+.fu{
+    background-color: antiquewhite;
+    /*padding-top: 80px;*/
+    margin-left:350px ;
+    margin-right:300px ;
+    display: block;
+    height: 42px;
+    border: skyblue 2px solid;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+textarea{
+    display: block;
+    margin: 10px 30px;
+    resize: none;
+}
+.foot{
+    margin: 5px  10px;
+}
+[type = "button"]{
+    float: right;
+}
+[value = "扔出去"]{
+    background: skyblue;
+    margin-right: 50px;
+}
+[value = "关闭"]{
+    margin-right: 10px;
+}
+[alt ="瓶子"]{
+    display: inline ;
+    margin-right:248px ;
+    margin-top: -74px;
+    /*margin-bottom: 100px;*/
+    padding-bottom: 10px;
+    float: right;
+    height:80px;
+}
+#p1{
+    font-size: 27px;
+    background-color: antiquewhite;
+    display: inline;
+}
+#p2{
+    display: inline;
+    font-size: 20px;
+    background-color: antiquewhite;
+}

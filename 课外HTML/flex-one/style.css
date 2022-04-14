@@ -1,0 +1,42 @@
+.body{
+    margin: 5px auto;
+    max-width: 800px;
+}
+.container{
+    display: flex;
+    /* 水平展示并换行 */
+    flex-flow: row wrap;
+}
+.item{
+    display: flex;
+    flex-flow: column;
+    border-radius: 5px;
+    border: 1px solid #999;
+    border-radius: 12px;
+    box-shadow:6px 6px 3px #ccc;
+    margin:40px;
+}
+
+.item > img{
+    align-self: center;
+}
+.item> button{
+    margin-top: auto;
+    margin-bottom: 5px;
+}
+button{
+    background-color: #007bff;
+    border-color: #0062cc;
+    color: #fff;
+}
+button:hover{
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.item:hover{
+    background-color: lightyellow;
+    transform: translateY(-2%);
+}
+button:focus{
+    outline: none;
+}
