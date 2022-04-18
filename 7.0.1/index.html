@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>鼠标划过手机旋转</title>
+    <style type="text/css">
+        .cont{
+            width:900px;
+            height:900px;
+            margin:0 auto;
+            text-align:center;
+        }
+        img{
+            width:150px;
+            height:300px;
+            padding-top:20px;
+        }
+        .cont .box{
+            width:430px;
+            height:430px;
+            float:left;
+            border:10px #FF8080 dashed;
+            color:#804040;
+            text-align:center;
+        }
+        .cont .box:hover .img1{
+            transform: rotate(90deg);
+            /* transition-duration: 0.6s; */
+            transition: 2s ease-in all;
+        }
+        .cont .box:hover .img2{
+            transform: translate(20px ,40px);
+            transition-duration: 0.6s;
+            
+        }
+        .cont .box:hover .img3{
+            transform: translateY(-60px);
+            transition-duration: 0.6s;
+        }
+        .cont .box:hover .img4{
+            transform: skew(3deg,30deg);
+            transition-duration: 0.6s;
+        }
+        
+    </style>
+</head>
+<body>
+<div class="cont">
+    <div class="box">
+        <h2>旋转</h2>
+        <img src="dog.jpeg" alt="img1" class="img1">
+    </div>
+    <div class="box">
+        <h2>缩放</h2>
+        <img src="dog.jpeg" alt="img1" class="img2">
+    </div>
+    <div class="box">
+        <h2>平移</h2>
+        <img src="dog.jpeg" alt="img1" class="img3">
+    </div>
+    <div class="box">
+        <h2>倾斜</h2>
+        <img src="dog.jpeg" alt="img1" class="img4">
+    </div>
+</div>
+</body>
+</html>
