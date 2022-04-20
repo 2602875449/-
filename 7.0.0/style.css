@@ -3,7 +3,7 @@
     margin: 0;
 }
 li {
-    display: block;
+    display: inline;
     text-align: center;
     width: 140px;
     height: 40px;
@@ -15,33 +15,32 @@ li {
 .list {
     width: 710px;
     height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 20px auto;
     background-color: rgba(96, 178, 255, 0.7);
 }
 .list > li:hover {
-    float: left;
-    border: 1px solid transparent;
-    cursor: pointer;
-    color: #fff;
     border-color: #ff7f50;
     background-color: #ff7f50;
-    position: relative;
+    color: #fff;
+    cursor: pointer;
 }
 .drop{
     position: absolute;
+    /* left: 0; */
     display: none;
-    left: 0;
-    top: 40px;
-    display: none;
+    /* top: 40px; */
     font: normal 16px/40px arial;
 }
 .drop li {
-    float: none;
-    border: 1pxsolid #ff7f50;
+    display: block;
+    /* border: 1px solid #ff7f50; */
     border-top: 0;
 }
 
-.drop  li:hover .drop {
+.list > li:hover .drop{
     display: block;
 }
 .drop li:hover{

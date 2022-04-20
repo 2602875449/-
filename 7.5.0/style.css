@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    margin: 0 auto;
+    border: 1px black solid;
+    height: 300px;
+    width: 700px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    background: #ceeeaf;
+}
+img{
+    width: 100px;
+    transition: 1.7s ease all;
+}
+.cont:hover img{
+    transform-origin: center;
+    transform: translate(570px , 0 ) rotate(10000deg);
+}
