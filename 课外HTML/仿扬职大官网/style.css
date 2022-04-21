@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.head{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #5584b3;
+    align-items: center;
+}
+.xx{
+    display: flex;
+    align-items: center;
+}
+[aria-hidden = "true"] {
+    color: aliceblue;
+}
+.drop{
+    display: none;
+}
+.list{
+
+}
+/*清楚超链接样式*/
+a:link {
+     text-decoration: none;
+     color: rgb(104, 70, 70);
+}
