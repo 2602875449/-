@@ -10,6 +10,9 @@
     background-color: #5584b3;
     align-items: center;
 }
+.logo{
+    margin-right: 50px;
+}
 .xx{
     display: flex;
     align-items: center;
@@ -20,11 +23,61 @@
 .drop{
     display: none;
 }
-.list{
-
+/*导航栏*/
+li{
+    margin: 6px 25px;
 }
-/*清楚超链接样式*/
+.list{
+    font-size: 16px;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+/*清除超链接样式*/
 a:link {
      text-decoration: none;
-     color: rgb(104, 70, 70);
+     color : #434343;
+}
+[alt = "tu1"]{
+    width: 100%;
+}
+
+/*新闻部分*/
+.news{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.title{
+    font-size: 18px;
+    padding: 5px 15px;
+}
+.title:hover{
+    font-size: 18px;
+    background-color: #0067b5;
+    color: #ffffff;
+}
+.leftNews{
+    width: 66%;
+    border: #00b0f0;
+}
+.rightNews{
+    width: 33%;
+    border: #00b0f0;
+}
+.l-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.r-top{
+    /*margin: 6px 25px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
