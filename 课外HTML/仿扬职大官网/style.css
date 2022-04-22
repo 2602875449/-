@@ -36,11 +36,16 @@ li{
     background-color: #eeeeee;
 }
 /*清除超链接样式*/
-a:link {
+li > a:link {
      text-decoration: none;
      color : #434343;
 }
+/*图片*/
 [alt = "tu1"]{
+    width: 100%;
+}
+[alt = "leftnews1"]{
+    /*height: 200px;*/
     width: 100%;
 }
 
@@ -49,6 +54,7 @@ a:link {
     padding-top: 40px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .title{
     font-size: 18px;
@@ -59,8 +65,33 @@ a:link {
     background-color: #0067b5;
     color: #ffffff;
 }
+.news-div{
+    display: flex;
+    flex-direction: row;
+}
+.leftNews-div{
+/*   左 区域划分*/
+    background-color: #f2f2f2;
+    width: 50%;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.rightNews-div{
+    /*右 区域划分*/
+    background-color: #f2f2f2;
+    width: 50%;
+    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 .leftNews{
-    width: 66%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 784px;
     border: #00b0f0;
 }
 .rightNews{
@@ -70,7 +101,7 @@ a:link {
 .l-top{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .r-top{
@@ -80,4 +111,16 @@ a:link {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+/*新闻的标题的样式*/
+.new-title{
+    display: block;
+    text-decoration: none;
+    color : #0067b5;
+    margin: 6px 0;
+    font-size: 17px;
+}
+i{
+    word-break: break-all;  /*自动换行*/
+    text-overflow: ellipsis;
 }
