@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="728dafe3-a70a-414a-a7ae-7e470cecd28d" name="变更" comment="仿扬职大官网">
-      <change afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/img/leftnews1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/img/leftnews2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/img/tu1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/img/tu2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/xx.png" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/img/xx.png" afterDir="false" />
-    </list>
+    <list default="true" id="728dafe3-a70a-414a-a7ae-7e470cecd28d" name="变更" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +65,7 @@
       <workItem from="1650458879801" duration="1000" />
       <workItem from="1650526048492" duration="6269000" />
       <workItem from="1650536037448" duration="1515000" />
+      <workItem from="1650592469660" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="仿扬职大官网">
       <created>1650526341237</created>
@@ -83,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650526341237</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1650592857086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650592857086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="仿扬职大官网" />
-    <option name="LAST_COMMIT_MESSAGE" value="仿扬职大官网" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
