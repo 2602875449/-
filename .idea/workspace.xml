@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="728dafe3-a70a-414a-a7ae-7e470cecd28d" name="变更" comment="update" />
+    <list default="true" id="728dafe3-a70a-414a-a7ae-7e470cecd28d" name="变更" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +67,7 @@
       <workItem from="1650458879801" duration="1000" />
       <workItem from="1650526048492" duration="6269000" />
       <workItem from="1650536037448" duration="1515000" />
-      <workItem from="1650592469660" duration="475000" />
+      <workItem from="1650592469660" duration="1127000" />
     </task>
     <task id="LOCAL-00001" summary="仿扬职大官网">
       <created>1650526341237</created>
@@ -81,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650592857086</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1650593017907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650593017907</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
