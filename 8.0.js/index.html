@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function change(){
+            document.getElementById('box').style.backgroundColor ='#f2f4f2'
+            document.getElementsByClassName('box')[0].style.backgroundColor ='#afafaf'
+            document.getElementsByName ('box')[0].style.backgroundColor ='skyblue'
+            document.getElementsByName ('box')[0].style.height ='300px'
+        }
+        function add(){
+            const btn = document.createElement("div");
+            btn.style.height = "100px";
+            btn.style.width = "100px";
+            btn.style.float = 'left';
+            btn.style.backgroundColor = 'pink';
+            btn.style.border= '1px #000 solid';
+            btn.style.margin = '1px'
+            document.body.appendChild(btn);
+        }
+    </script>
+</head>
+<body>
+    <div class="box" style="width: 100px; height: 100px; background-color: #db9999;"></div>
+    <div id="box" style="width: 100px; height: 100px; background-color: #db9999;"></div>
+    <div name="box" style="width: 100px; height: 100px; background-color: #db9999;"></div>
+
+    <button onclick="change();"> 点我</button>
+    <button onclick = "add()"> 加一个</button>
+</body>
+</html>

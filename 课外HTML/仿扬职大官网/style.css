@@ -177,34 +177,84 @@ li > a:link {
 
 /*公告部分*/
 
-.notice{
+.notice-top-top{
+/*    想不到什么名字了，后面加的*/
+/*    定义下半部分位置居中，。。。*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    /*align-items: center;*/
+}
+/*后面又加的，框架分析不清晰，吃大亏*/
+.notice-left-all{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 66%;
+}
+.notice-top-1{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50%;
 }
-.notice-1{
+/*.notice-1{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-}
+}*/
 .notice-item-1{
     display: flex;
     flex-direction: row;
 }
+.notice-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.notice-item-info{
+/*    */
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+}
+.notice-details-one{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
 .notice-time{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
 }
 .notice-time-1{
     color: #a0a0a0;
     font-size: 14px;
 }
 .notice-time-2{
-
     /*display: block;*/
     color: #fff;
     font-size: 24px;
     background-color: #0067b5;
+}
+.hasNews1{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    /*height: 348px;*/
+    display: flex;
+    max-width: 55%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*下面是右下的部分*/
+.other-icon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
