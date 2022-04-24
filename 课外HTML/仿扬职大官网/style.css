@@ -258,3 +258,11 @@ li > a:link {
     flex-direction: row;
     flex-wrap: wrap;
 }
+.other-li{
+    display: block;
+    list-style: none;
+    background-color: #0067b5;
+    /*color: black;*/
+    /*font-size: 50px;*/
+
+}
