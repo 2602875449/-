@@ -193,6 +193,12 @@ li > a:link {
     align-items: center;
     max-width: 66%;
 }
+/*.notice-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}*/
 .notice-top-1{
     display: flex;
     flex-direction: row;
@@ -214,6 +220,7 @@ li > a:link {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    max-width: 70%;
 }
 .notice-item-info{
 /*    */
@@ -240,7 +247,11 @@ li > a:link {
     /*display: block;*/
     color: #fff;
     font-size: 24px;
+    text-align: center;
     background-color: #0067b5;
+    /*padding: 50px;*/
+    line-height: 40px;
+
 }
 .hasNews1{
     margin-top: 10px;

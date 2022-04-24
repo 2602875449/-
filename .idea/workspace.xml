@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="728dafe3-a70a-414a-a7ae-7e470cecd28d" name="变更" comment="左下基本框架完成">
+    <list default="true" id="728dafe3-a70a-414a-a7ae-7e470cecd28d" name="变更" comment="4.24日 图标暂时没办法变大">
+      <change afterPath="$PROJECT_DIR$/课外HTML/jQuery/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课外HTML/jQuery/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/style.css" afterDir="false" />
@@ -80,7 +82,8 @@
       <workItem from="1650675546548" duration="3059000" />
       <workItem from="1650679749853" duration="245000" />
       <workItem from="1650708579412" duration="7093000" />
-      <workItem from="1650760224595" duration="2448000" />
+      <workItem from="1650760224595" duration="2715000" />
+      <workItem from="1650799439589" duration="2432000" />
     </task>
     <task id="LOCAL-00001" summary="仿扬职大官网">
       <created>1650526341237</created>
@@ -124,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650724388087</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="4.24日 图标暂时没办法变大">
+      <created>1650764266502</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650764266502</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +157,7 @@
     <MESSAGE value="update" />
     <MESSAGE value="左新闻修改完毕" />
     <MESSAGE value="左下基本框架完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="左下基本框架完成" />
+    <MESSAGE value="4.24日 图标暂时没办法变大" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.24日 图标暂时没办法变大" />
   </component>
 </project>
