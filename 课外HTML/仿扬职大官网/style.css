@@ -273,6 +273,7 @@ li > a:link {
     display: block;
     list-style: none;
     background-color: #0067b5;
+    padding: 33px;
     /*color: black;*/
     /*font-size: 50px;*/
 
