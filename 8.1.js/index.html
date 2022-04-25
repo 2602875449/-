@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function change1(){
+            $('.box').css("background-color","blue") 
+        }
+        function change2(){
+            $('.div').css("background-color","blue")
+        }
+        function change3(){
+            $('#box').css("background-color","blue")
+        }
+    </script>
+    <div class="box" style="width: 100px; height: 100px; background-color: #db9999;margin: 10px 0;"></div>
+    <div class="div" style="width: 100px; height: 100px; background-color: #db9999;margin: 10px 0;"></div>
+    <div id="box" style="width: 100px; height: 100px; background-color: #db9999;margin: 10px 0;"></div>
+
+    <button onclick="change1()">点我</button>
+    <button onclick="change2()">点我</button>
+    <button onclick="change3()">点我</button>
+</body>
+</html>
