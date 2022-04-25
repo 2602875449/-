@@ -1,16 +1,18 @@
 @charset "utf-8";
 .cont {
-    width: 600px;
+    width: 700px;
     margin: 20px auto
 }
 
 .table2 {
     width: 450px;
-    text-align: center
+    text-align: center;
+    margin: 0 auto;
 }
 
 .table2 td, th {
     padding: 5px 10px;
+
 }
 
 input[type=text] {

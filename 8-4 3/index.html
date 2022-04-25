@@ -1,8 +1,10 @@
 ﻿<!DOCTYPE html >
+<html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>会员信息录入表</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
 </head>
 <script src="js/js.js"></script>
 <body>
@@ -10,6 +12,7 @@
     <div>
         <label>姓名：<input type="text" id="ne"/></label>
         <label>会员号：<input  type="text" id="vip"/></label>
+        <label>手机号：<input  type="text" id="phone"/></label>
         <input type="button" value="确认添加" onclick="addb()"/>
     </div>
     <table class="table2">
@@ -17,6 +20,7 @@
         <tr>
             <th>姓名</th>
             <th>会员号</th>
+            <th>手机号</th>
             <th>操作</th>
         </tr>
     </table>
