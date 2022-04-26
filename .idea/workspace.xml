@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="728dafe3-a70a-414a-a7ae-7e470cecd28d" name="变更" comment="8.0第2次课">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8-4 3/js/js.js" beforeDir="false" afterPath="$PROJECT_DIR$/8-4 3/js/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/style.css" afterDir="false" />
     </list>
@@ -90,6 +89,9 @@
       <workItem from="1650844026305" duration="259000" />
       <workItem from="1650850514080" duration="7621000" />
       <workItem from="1650871235841" duration="1302000" />
+      <workItem from="1650883591024" duration="1385000" />
+      <workItem from="1650886496192" duration="627000" />
+      <workItem from="1650979169643" duration="2174000" />
     </task>
     <task id="LOCAL-00001" summary="仿扬职大官网">
       <created>1650526341237</created>
@@ -161,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650858852683</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="8.0第2次课">
+      <created>1650883670756</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1650883670756</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

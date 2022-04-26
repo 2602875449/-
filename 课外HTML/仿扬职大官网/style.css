@@ -10,6 +10,7 @@
     background-color: #5584b3;
     align-items: center;
 }
+
 .logo{
     margin-right: 50px;
 }
@@ -34,6 +35,10 @@ li{
     flex-direction: row;
     justify-content: center;
     background-color: #eeeeee;
+}
+a{
+    text-decoration: none;
+    color: #5584b2;
 }
 /*清除超链接样式*/
 li > a:link {
@@ -171,6 +176,7 @@ li > a:link {
 
 .title-time{
     color: #a0a0a0;
+
     font-size: 14px;
 }
 /*以上部分是上半部分的新闻的代码，动画加的少一点，待完善*/
@@ -191,7 +197,7 @@ li > a:link {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    max-width: 66%;
+    max-width: 62%;
 }
 /*.notice-1{
     display: flex;
@@ -227,6 +233,7 @@ li > a:link {
     display: flex;
     flex-direction: column;
     max-width: 80%;
+    margin-left:5px ;
 }
 .notice-details-one{
     display: -webkit-box;
@@ -238,6 +245,9 @@ li > a:link {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    border-radius: 5px;
+    padding: 0 5px;
+    border: 1px #7d7d7d solid;
 }
 .notice-time-1{
     color: #a0a0a0;
@@ -246,19 +256,21 @@ li > a:link {
 .notice-time-2{
     /*display: block;*/
     color: #fff;
+    display: block;
     font-size: 24px;
     text-align: center;
     background-color: #0067b5;
-    /*padding: 50px;*/
+    border: 1px solid #7d7d7d;
+    border-radius: 5px;
     line-height: 40px;
 
 }
 .hasNews1{
     margin-top: 10px;
     padding-bottom: 20px;
-    /*height: 348px;*/
+
     display: flex;
-    max-width: 55%;
+    max-width: 71%;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -270,11 +282,14 @@ li > a:link {
     flex-wrap: wrap;
 }
 .other-li{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     background-color: #0067b5;
-    padding: 33px;
-    /*color: black;*/
-    /*font-size: 50px;*/
-
+    padding: 8px 10px 6px 8px;
+    margin: 20px 7px;
+    color: #f2f2f2;
+    border-radius: 5px;
 }
