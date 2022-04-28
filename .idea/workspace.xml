@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="728dafe3-a70a-414a-a7ae-7e470cecd28d" name="变更" comment="8.0第2次课">
+    <list default="true" id="728dafe3-a70a-414a-a7ae-7e470cecd28d" name="变更" comment="写的👻样">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/style.css" afterDir="false" />
@@ -94,7 +94,7 @@
       <workItem from="1650979169643" duration="3202000" />
       <workItem from="1651110430272" duration="378000" />
       <workItem from="1651131717722" duration="2401000" />
-      <workItem from="1651141468295" duration="3897000" />
+      <workItem from="1651141468295" duration="6953000" />
     </task>
     <task id="LOCAL-00001" summary="仿扬职大官网">
       <created>1650526341237</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650982012282</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="写的👻样">
+      <created>1651146022113</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651146022113</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +213,7 @@
     <MESSAGE value="4.24日 图标暂时没办法变大" />
     <MESSAGE value="提交" />
     <MESSAGE value="8.0第2次课" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.0第2次课" />
+    <MESSAGE value="写的样" />
+    <option name="LAST_COMMIT_MESSAGE" value="写的样" />
   </component>
 </project>
