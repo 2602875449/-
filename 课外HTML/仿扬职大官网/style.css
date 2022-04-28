@@ -218,8 +218,11 @@ li > a:link {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 67%;
+    width: 75%;
     margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f2f2f6;
+    border-radius: 4px;
 }
 /*.notice-1{
     display: flex;
@@ -233,6 +236,7 @@ li > a:link {
 .notice-item-1{
     display: flex;
     flex-direction: row;
+    font-size: 18px;
 }
 .notice-info{
     display: flex;
@@ -316,18 +320,54 @@ li > a:link {
     flex-direction: column;
     align-content: space-between;
 }
-
 .other-link-one{
     display: flex;
     flex-direction: row;
-    align-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    max-width: 82%;
+    width: 82%;
     border: 1px solid #f2f2f2;
     border-radius: 5px;
     color: #a1a1a1;
     background-color: #e2e2e2;
     padding-left: 10px;
-    margin: 10px;
+    margin: 13px 0;
     height: 50px;
+}
+/*最下面的部分*/
+
+.foot-container-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+    background-color: #5584b2;
+    height: 173px;
+    width: 1440px;
+}
+.links{
+    width: 33%;
+}
+.logo-1{
+    width: 33%;
+}
+.foot-contact{
+    width: 33%;
+}
+
+.foot-container-2{
+    display: flex;
+    background-color: #155593;
+    height: 173px;
+    width: 1440px;
+}
+
+.foot-info{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+    width: 100%;
 }
