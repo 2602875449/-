@@ -208,9 +208,10 @@ li > a:link {
 .notice-top-1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    max-width: 50%;
+    width: 67%;
+    margin-bottom: 10px;
 }
 /*.notice-1{
     display: flex;
@@ -218,6 +219,9 @@ li > a:link {
     align-items: center;
     justify-content: space-between;
 }*/
+.more{
+    color: #0067b5;
+}
 .notice-item-1{
     display: flex;
     flex-direction: row;
@@ -292,4 +296,29 @@ li > a:link {
     margin: 20px 7px;
     color: #f2f2f2;
     border-radius: 5px;
+}
+/*这是一个那个常用链接的位置*/
+.other-link{
+    flex-direction: column ;
+    display: flex;
+}
+.other-link-all{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.other-link-one{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    max-width: 82%;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
+    color: #a1a1a1;
+    background-color: #e2e2e2;
+    padding-left: 10px;
+    margin: 10px;
+    height: 50px;
 }
