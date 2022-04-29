@@ -347,12 +347,24 @@ li > a:link {
 }
 .links{
     width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .logo-1{
     width: 33%;
 }
+/*右边的*/
 .foot-contact{
     width: 33%;
+    color: #f2f2f2;
+}
+.links-cont{
+    color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .foot-container-2{
@@ -370,4 +382,26 @@ li > a:link {
     align-items: center;
     color: #f2f2f2;
     width: 100%;
+}
+.foot-title{
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 18px;
+}
+.foot-link-1{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+.foot-link{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 64px;
+}
+.foot-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
