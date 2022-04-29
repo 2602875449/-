@@ -345,7 +345,7 @@ li > a:link {
     margin-top: 70px;
     background-color: #5584b2;
     height: 173px;
-    width: 1440px;
+    width: 100%;
 }
 .links{
     width: 33%;
@@ -373,7 +373,7 @@ li > a:link {
     display: flex;
     background-color: #155593;
     height: 173px;
-    width: 1440px;
+    width: 100%;
 }
 
 .foot-info{
