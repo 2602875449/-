@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="728dafe3-a70a-414a-a7ae-7e470cecd28d" name="变更" comment="结束">
-      <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/style.css" afterDir="false" />
+    <list default="true" id="728dafe3-a70a-414a-a7ae-7e470cecd28d" name="变更" comment="修改">
+      <change afterPath="$PROJECT_DIR$/9.0.0/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +42,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/8-4 3/js" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/8-4 3/js" />
@@ -94,7 +91,11 @@
       <workItem from="1651131717722" duration="2401000" />
       <workItem from="1651141468295" duration="10206000" />
       <workItem from="1651214937093" duration="3982000" />
-      <workItem from="1651223642241" duration="933000" />
+      <workItem from="1651223642241" duration="1388000" />
+      <workItem from="1651451795776" duration="23000" />
+      <workItem from="1651451898964" duration="531000" />
+      <workItem from="1651452882585" duration="532000" />
+      <workItem from="1651494422945" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="仿扬职大官网">
       <created>1650526341237</created>
@@ -222,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651224283572</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="结束">
+      <created>1651224771346</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1651224771346</updated>
+    </task>
+    <task id="LOCAL-00020" summary="修改">
+      <created>1651224976364</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1651224976364</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +268,7 @@
     <MESSAGE value="最后一点点" />
     <MESSAGE value="差一些css效果，不想写了" />
     <MESSAGE value="结束" />
-    <option name="LAST_COMMIT_MESSAGE" value="结束" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
 </project>

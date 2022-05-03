@@ -1,0 +1,64 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>计算器</title>
+	<script type="text/javascript">
+		function jisuan() {
+			var x = Number(document.getElementById("left").value);
+			var y = Number(document.getElementById("right").value);
+			var jieguo = document.getElementById("sle").value;
+			var yunsuan;
+		// 姚朋涛 转
+			Math.formatFloat = function (f, digit) {
+				var m = Math.pow(10, digit);
+				return Math.round(f * m, 10) / m;
+        }
+			console.log(Math.formatFloat(6.8-0.9,2));
+			switch (jieguo) {
+				case "+":
+					
+					yunsuan = Math.formatFloat(x + y, 2);
+					break;
+				case "-":
+			
+                    yunsuan = Math.formatFloat(x - y, 2);
+					break;
+				case "*":
+                yunsuan = Math.formatFloat(x * y, 2);
+					break;
+
+				case "/":
+					if (y != 0) {
+						yunsuan = Math.formatFloat(x / y, 2);
+					} else {
+						yunsuan = "除数不能为0";
+					}
+					break;
+			}
+
+			document.getElementById("jieguo").value = yunsuan;
+
+		}
+	</script>
+
+
+</head>
+
+<body>
+	<input type="text" id="left" value="" />
+	<select id="sle" name="">
+		<option value="+">+</option>
+		<option value="-">-</option>
+		<option value="*">*</option>
+		<option value="/">/</option>
+	</select>
+	<input type="text" id="right" value="" />
+	<input type="button" onclick="jisuan()" value="运算" />
+	<input type="text" id="jieguo" value="" />
+
+</body>
+
+</html>
