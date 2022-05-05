@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="728dafe3-a70a-414a-a7ae-7e470cecd28d" name="变更" comment="修改">
-      <change afterPath="$PROJECT_DIR$/9.0.0/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/js/jQuery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.3.0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/7.3.0/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/课外HTML/仿扬职大官网/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/课外HTML/仿扬职大官网/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,17 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/8-4 3/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/课外HTML/仿扬职大官网/js" />
       <recent name="$PROJECT_DIR$/课外HTML/仿扬职大官网/img" />
     </key>
   </component>
@@ -96,6 +102,7 @@
       <workItem from="1651451898964" duration="531000" />
       <workItem from="1651452882585" duration="532000" />
       <workItem from="1651494422945" duration="6000" />
+      <workItem from="1651735802168" duration="7618000" />
     </task>
     <task id="LOCAL-00001" summary="仿扬职大官网">
       <created>1650526341237</created>
