@@ -238,8 +238,8 @@ li > a:link {
     max-width: 62%;
 }
 /*.notice-1{
-    display: flex;
-    flex-direction: column;
+    display: flex10.0.1;
+    flex10.0.1-direction: column;
     justify-content: space-around;
     align-items: center;
 }*/
@@ -255,8 +255,8 @@ li > a:link {
     border-radius: 4px;
 }
 /*.notice-1{
-    display: flex;
-    flex-direction: row;
+    display: flex10.0.1;
+    flex10.0.1-direction: row;
     align-items: center;
     justify-content: space-between;
 }*/
