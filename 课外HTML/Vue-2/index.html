@@ -9,28 +9,35 @@
 </head>
 <body>
     <div id = "app">
-        <p>列表书籍</p>
-        
+        <todo>
+            <todo-title slot="todo-title" :title = "title"></todo-title>
+            <todo-items slot="todo-items" v-for = "item in todoItems"></todo-items>
+        </todo>
     
     </div>
     <script>
         Vue.component("todo",{
             template: '<div>\
-                <slot></slot>\
+                <slot name="todo-title"></slot>\
                     <ul>\
-                        <slot></slot>\
+                        <slot name="todo-items"></slot>\
                     </ul>\
             </div>'
         })
         Vue.component("todo-title",{
-            template: '<div>标题</div>'
+            props:['title'],
+            template: '<div>{{titlte}}}}</div>'
         });
-        Vue.component("todo-title",{
-            template: '<li>标题</li>'
+        Vue.component("todo-items",{
+            props: ["item"],
+            template: '<li>{{item}}}</li>'
         });
         var vm = new Vue({
             el:"app",
-            data
+            data:{
+                title: "列表",
+                todoItems:['狂神java','html','linux']
+            }
         })
     </script>
 </body>
