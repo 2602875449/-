@@ -1,0 +1,27 @@
+body{
+    background: aquamarine;
+}
+@media screen and (max-width: 1000px){
+    body{
+        background: #5584b3;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 700px){
+    body{
+        background: #65ba5b;
+    }
+    p{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 500px){
+    body{
+        background: #be67e7;
+    }
+    p{
+        font-size: 45px;
+    }
+}

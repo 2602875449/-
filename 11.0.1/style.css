@@ -1,0 +1,20 @@
+@media screen and (min-width: 641px){
+    .as{
+        background: url("img/large.jpg") no-repeat;
+        background-size: cover;
+        height: 440px;
+    }
+}
+@media screen and (max-width: 640px){
+    .as{
+        background-size: contain;
+        background: url("img/small.png") no-repeat;
+        height: 240px;
+    }
+}
+@media screen and (max-width: 400px){
+    .as{
+        background: none;
+        height: 240px;
+    }
+}
