@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+a{
+    padding: 0 10px;
+}
+ol{
+    list-style: none;
+}
+ol ol{
+    display: none;
+}

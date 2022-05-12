@@ -4,9 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="jQuery.js"></script>
     <title>Document</title>
 </head>
 <body>
-    
+    <ol class="nav">
+        <a href="#">微博</a>
+        <ol>
+            <a href="#">私信</a>
+            <a href="#">评论</a>
+            <a href="#">@我</a>
+        </ol>
+        <a href="#">微博</a>
+        <ol>
+            <a href="#">私信</a>
+            <a href="#">评论</a>
+            <a href="#">@我</a>
+        </ol>
+        <a href="#">微博</a>
+        <ol>
+            <a href="#">私信</a>
+            <a href="#">评论</a>
+            <a href="#">@我</a>
+        </ol>
+        <a href="#">微博</a>
+        <ol>
+            <a href="#">私信</a>
+            <a href="#">评论</a>
+            <a href="#">@我</a>
+        </ol>
+    </ol>
+    <script>
+        $(function(){
+            $(".nav >a").mouseover(function(){
+                $(this).children("ol").show();         //jquery 
+            })
+        })
+    </script>
 </body>
 </html>
