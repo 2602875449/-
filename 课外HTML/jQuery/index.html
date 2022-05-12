@@ -9,17 +9,42 @@
     
 </head>
 <body>
-    <input type="checkbox" name="ch" id="aa" checked = "checked">aa
-    <input type="checkbox" id="bb" name="ch" >bb
-
+<h2>bind()简单的绑定事件</h2>
+    <div id = "test" style="cursor:pointer">点击查看名言</div>
+    <button id="btn1">按钮1</button>
+    <button id="btn2">按钮2</button>
+    <button id="btn3">按钮3</button>
+    <button id="btn4">按钮4</button>
     <script>
         //获取属性
-        // attr("name");
-        console.log($("#aa").attr("name"));
-        console.log($("#bb").prop("name"));
-        // prop("属性名");
+        // 绑定单个事件
+        $(function(){
+            $("#test").bind("click",function(){
+                alert("世上无难事");
+            })
+            $("#btntest").click(function(){
+                    $(this).prop("abled",false);
+                });
+            // 绑定多个事件
+            $("#btn1").bind("click mouseout",function(){
+            console.log("按钮1.。。。");
+        });
+            $("#btn2").bind("click",function(){
+                console.log("按2");
+            }).bind("mouseout",function(){
+                console.log("按移开");
+            });
+            // 直接绑定就行；
+            $("#btn4").click(function(){
+             console.log("按钮4被点击了");
+            }).mouseout(function(){
+                console.log("鼠标4移走了");
+            });
 
-    
+
+        })
+        
+
     </script>
 </body>
 </html>

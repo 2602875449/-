@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jQuery.js"></script>
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <script>
+        //获取属性
+        // 绑定单个事件
+        // 老是404，没有找到对应的方法
+        // jQuery ajax get 方法
+        $(function(){
+            $.get("/js/data.json",{},function(data){
+            console.log(data);
+            });
+        }); 
+        
+
+    </script>
+</body>
+</html>
