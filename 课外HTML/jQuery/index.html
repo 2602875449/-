@@ -4,29 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="main.js"></script>
+    <script src="jQuery.js"></script>
     <title>Document</title>
-    <style>
-        div{
-            height: 100px;
-            width: 100px;
-            background-color: pink;
-        }
-    </style>
+    
 </head>
 <body>
-    <div>
-    </div>
+    <input type="checkbox" name="ch" id="aa" checked = "checked">aa
+    <input type="checkbox" id="bb" name="ch" >bb
 
     <script>
-        // $('div').hide();
+        //获取属性
+        // attr("name");
+        console.log($("#aa").attr("name"));
+        console.log($("#bb").prop("name"));
+        // prop("属性名");
 
-        // $(document).ready(function(){
-        //     $('div').hide();
-        // })
-        $(function(){
-            $('div').hide();
-        })
+    
     </script>
 </body>
 </html>
